@@ -1,0 +1,21 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore large model files or folders
+models/
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# You can also ignore specific known model folders/files:
+# /path/to/your/model-folder/
+# model-name/
+
+# Ignore environment files if any
+.env
+*.env
+
+# Ignore notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
